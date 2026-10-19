@@ -29,9 +29,9 @@ A aplicação sobe em `http://localhost:8080`.
 ## Roadmap
 
 - [x] Projeto inicial e endpoint de status
-- [] Banco de dados PostgreSQL com Docker e Spring Data JPA
-- [] Cadastro de clientes e produtos de renda fixa
-- [] Simulação de rendimento e aplicações
-- [] Testes unitários com JUnit e Mockito
-- [] Docker e CI com GitHub Actions
-- [] Documentação com Swagger
+- [ ] Banco de dados PostgreSQL com Docker e Spring Data JPA
+- [ ] Cadastro de clientes e produtos de renda fixa
+- [ ] Simulação de rendimento e aplicações
+- [ ] Testes unitários com JUnit e Mockito
+- [ ] Docker e CI com GitHub Actions
+- [ ] Documentação com Swagger
