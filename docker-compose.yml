@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16
+    container_name: renda-fixa-db
+    environment:
+      POSTGRES_DB: renda_fixa
+      POSTGRES_USER: renda_user
+      POSTGRES_PASSWORD: renda_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - renda_fixa_data:/var/lib/postgresql/data
+
+volumes:
+  renda_fixa_data:
